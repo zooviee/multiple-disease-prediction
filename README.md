@@ -33,11 +33,12 @@ It provides an accessible interface for early health screening and educational a
 ## 📁 Folder Structure
 
 ```
-├── multiple_disease_pred.py       # Main Streamlit app
-├── diabetes_model.pkl             # Trained model for diabetes
-├── heart_model.pkl                # Trained model for heart disease
-├── parkinsons_model.pkl           # Trained model for Parkinson's
-├── requirements.txt               # Required Python packages
+├── multiple_disease_pred.py           # Main Streamlit app
+├── saved_models
+    ├── diabetes_model.pkl             # Trained model for diabetes
+    ├── heart_model.pkl                # Trained model for heart disease
+    ├── parkinsons_model.pkl           # Trained model for Parkinson's
+├── requirements.txt                   # Required Python packages
 ```
 
 
