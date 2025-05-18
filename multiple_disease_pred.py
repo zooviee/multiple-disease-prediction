@@ -10,15 +10,20 @@ Created on Sat May 10 20:40:32 2025
 import pickle 
 import streamlit as st 
 from streamlit_option_menu import option_menu
+import os
+
+
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('/Users/oluwaseyiakinsanya/Desktop/Multiple Disease Prediction System/saved models/diabetes_model.sav', 'rb'))
+model_path_d = os.path.join('saved models', 'diabetes_model.sav')
+diabetes_model = pickle.load(open(model_path_d, 'rb'))
 
-heart_disease_model = pickle.load(open('/Users/oluwaseyiakinsanya/Desktop/Multiple Disease Prediction System/saved models/heart_disease_model.sav', 'rb'))
+model_path_h = os.path.join('saved models', 'heart_disease_model.sav')
+heart_disease_model = pickle.load(open(model_path_h, 'rb'))
 
-parkinsons_model = pickle.load(open('/Users/oluwaseyiakinsanya/Desktop/Multiple Disease Prediction System/saved models/parkinsons_model.sav', 'rb'))
-
+model_path_p = os.path.join('saved models', 'parkinsons_model.sav')
+parkinsons_model = pickle.load(open(model_path_p, 'rb'))
 
 # sidebar for navigation
 
