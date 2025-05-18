@@ -16,13 +16,13 @@ import os
 
 # loading the saved models
 
-model_path_d = os.path.join('saved models', 'diabetes_model.sav')
+model_path_d = os.path.join('saved_models', 'diabetes_model.sav')
 diabetes_model = pickle.load(open(model_path_d, 'rb'))
 
-model_path_h = os.path.join('saved models', 'heart_disease_model.sav')
+model_path_h = os.path.join('saved_models', 'heart_disease_model.sav')
 heart_disease_model = pickle.load(open(model_path_h, 'rb'))
 
-model_path_p = os.path.join('saved models', 'parkinsons_model.sav')
+model_path_p = os.path.join('saved_models', 'parkinsons_model.sav')
 parkinsons_model = pickle.load(open(model_path_p, 'rb'))
 
 # sidebar for navigation
