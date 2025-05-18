@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Streamlit cache
+.streamlit/config.toml
+.streamlit/*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log and environment files
+*.log
+*.env
+.env.*
+
+# Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
+
+# Heroku build artifacts
+*.tar.gz
+*.whl
+
+# User-defined folders (optional)
+saved models/
+models/
+__pypackages__/
